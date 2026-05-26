@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column; /* Stacks line-one and line-two vertically */
+    align-items: center;
+}
+
+.line-one, .line-two {
+    display: flex;
+}
+
+.red{
+    background-color: #d95980;
+}
+.green{
+    background-color: #63aac0;
+}
+.blue{
+    background-color: #819ff9;
+}
+.yellow{
+    background-color: #f99b45;
+}
+
+/* Add this to your style.css */
+.gameflash {
+    background-color: white !important;
+}
+
+.userflash {
+    background-color: rgb(215, 9, 9) !important;
+}
